@@ -64,7 +64,7 @@ if uploaded_file:
             dry_months = [f"{month_map[m]} ({monthly_avg[m]:.1f} mm)" for m in dry_months_raw]
 
             st.markdown(f"""
-            ### 🤖 AI Rainfall Insight for **{lga_selected}**
+            ### 🤖 Rainfall Insight for **{lga_selected}**
             From the data collected between **2020 and 2023**, here are the seasonal patterns:
 
             - 🌧️ **Wet Season (Rainy Months)**: These are months with significant rainfall that support agriculture and water supply.
